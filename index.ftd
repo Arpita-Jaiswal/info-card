@@ -1,5 +1,6 @@
--- import: arpita-jaiswal.github.io/info-card/themes/t1 as theme
-/-- import: arpita-jaiswal.github.io/info-card/themes/t2 as theme
+/-- import: arpita-jaiswal.github.io/info-card/themes/t1 as theme
+-- import: arpita-jaiswal.github.io/info-card/themes/t2 as theme
+/-- import: arpita-jaiswal.github.io/info-card/themes/t3 as theme
 
 -- ftd.column:
 width: fill-container
