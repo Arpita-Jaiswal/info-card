@@ -2,6 +2,7 @@
 -- import: fifthtry.github.io/fastn-io-typography as typo
 -- import: fastn-community.github.io/doc-site as ds
 -- import: arpita-jaiswal.github.io/info-card/assets
+-- import: fastn-stack.github.io/fastn-js/utils
 -- import: dms
 
 
@@ -38,17 +39,17 @@ ftd.type-data types: $typo.types
 ftd.color-scheme colors: $cs.main
 
 -- ftd.row:
-width.fixed.px: 250
-height.fixed.px: 510
-background.image: $bg-image
 align-content: center
-padding.px: 20
 
 -- ftd.column:
-width: fill-container
+width.fixed.px: 250
+height.fixed.px: 510
 align-content: center
 color: black
 spacing.fixed.px: 10
+background.image: $bg-image
+padding.px: 20
+id: card-1
 
 -- ftd.image:
 src: $assets.files.images.logo-2.png
@@ -69,6 +70,14 @@ role: $inherited.types.copy-small
 text-align: center
 
 -- end: ftd.column
+
+-- ftd.image:
+src: $assets.files.images.download.svg
+$on-click$: $utils.download-as-image(element_id = card-1, filename = card-1.jpg)
+anchor: parent
+top.px: 0
+right.px: -32
+width.fixed.px: 20
 
 -- end: ftd.row
 

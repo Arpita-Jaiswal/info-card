@@ -7,3 +7,4 @@
 -- fastn.dependency: fifthtry.github.io/fastn-io-typography
 -- fastn.dependency: fastn-community.github.io/doc-site
 -- fastn.dependency: fifthtry.github.io/dark-mode-switcher as dms
+-- fastn.dependency: fastn-stack.github.io/fastn-js
