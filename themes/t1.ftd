@@ -1,0 +1,59 @@
+-- import: fastn-community.github.io/forest-cs as cs
+-- import: fifthtry.github.io/fastn-io-typography as typo
+-- import: fastn-community.github.io/doc-site as ds
+-- import: arpita-jaiswal.github.io/info-card/assets
+-- import: dms
+
+
+-- component info-card:
+caption title:
+string subtitle:
+body data:
+ftd.type-data types: $typo.types
+ftd.color-scheme colors: $cs.main
+
+-- ftd.row:
+width.fixed.px: 250
+height.fixed.px: 510
+background.image: $bg-image
+align-content: center
+padding.px: 20
+
+-- ftd.column:
+width: fill-container
+align-content: center
+color: $inherited.colors.text-strong
+spacing.fixed.px: 10
+
+-- ftd.image:
+src: $assets.files.images.logo-2.png
+width.fixed.px: 45
+
+-- ftd.text: $info-card.title
+role: $inherited.types.heading-small
+style: bold
+text-align: center
+margin.px: -10
+
+-- ftd.text: $info-card.subtitle
+role: $inherited.types.fine-print
+text-align: center
+
+-- ftd.text: $info-card.data
+role: $inherited.types.copy-small
+text-align: center
+
+-- end: ftd.column
+
+-- dms.dark-mode-switcher-float:
+
+-- end: ftd.row
+
+
+-- end: info-card
+
+
+-- ftd.background-image bg-image:
+src: $assets.files.images.img-2.jpeg
+repeat: no-repeat
+position: center

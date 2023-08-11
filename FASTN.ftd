@@ -1,18 +1,9 @@
 -- import: fastn
 
 -- fastn.package: arpita-jaiswal.github.io/info-card
-favicon: /-/arpita-jaiswal.github.io/info-card/favicon.ico
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: arpita-jaiswal.github.io/info-card/FASTN/ds
--- fastn.auto-import: arpita-jaiswal.github.io/info-card/assets
--- fastn.auto-import: doc-site
-
--- fastn.sitemap:
-
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+-- fastn.dependency: fastn-community.github.io/forest-cs
+-- fastn.dependency: fifthtry.github.io/fastn-io-typography
+-- fastn.dependency: fastn-community.github.io/doc-site
+-- fastn.dependency: fifthtry.github.io/dark-mode-switcher as dms
