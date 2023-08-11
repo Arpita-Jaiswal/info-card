@@ -7,7 +7,6 @@
 
 
 
-
 -- ftd.column:
 width: fill-container
 height: fill-container
@@ -23,6 +22,13 @@ educationally backward classes of citizens or for the Scheduled Castes and
 Scheduled Tribes"
 
 -- end: ftd.column
+
+
+
+
+
+
+
 
 
 
@@ -49,7 +55,7 @@ padding.px: 20
 -- ftd.column:
 width: fill-container
 align-content: center
-color: $inherited.colors.cta-primary.border
+color: white
 spacing.fixed.px: 10
 
 
@@ -59,20 +65,19 @@ style: bold
 text-align: center
 margin.px: -10
 
--- ftd.image:
-src: $assets.files.images.logo-3.png
-width.fixed.px: 45
-
 -- ftd.text: $info-card.subtitle
 role: $inherited.types.fine-print
 text-align: center
+
+-- ftd.image:
+src: $assets.files.images.logo-2.png
+width.fixed.px: 45
 
 -- ftd.text: $info-card.data
 role: $inherited.types.copy-small
 text-align: center
 
 -- end: ftd.column
-
 
 -- end: ftd.row
 
@@ -81,6 +86,6 @@ text-align: center
 
 
 -- ftd.background-image bg-image:
-src: $assets.files.images.img-3.jpeg
+src: $assets.files.images.img-4.jpeg
 repeat: no-repeat
 position: center
