@@ -2,6 +2,7 @@
 -- import: fifthtry.github.io/fastn-io-typography as typo
 -- import: fastn-community.github.io/doc-site as ds
 -- import: arpita-jaiswal.github.io/info-card/assets
+-- import: fastn-stack.github.io/fastn-js/utils
 -- import: dms
 
 
@@ -22,6 +23,7 @@ State from making any special provision for the advancement of any socially and
 educationally backward classes of citizens or for the Scheduled Castes and
 Scheduled Tribes"
 
+
 -- end: ftd.column
 
 
@@ -40,17 +42,17 @@ ftd.type-data types: $typo.types
 ftd.color-scheme colors: $cs.main
 
 -- ftd.row:
+align-content: center
+
+-- ftd.column:
 width.fixed.px: 250
 height.fixed.px: 510
 background.image: $bg-image
-align-content: center
 padding.px: 20
-
--- ftd.column:
-width: fill-container
 align-content: center
 color: $inherited.colors.cta-primary.border
 spacing.fixed.px: 10
+id: card-2
 
 
 -- ftd.text: $info-card.title
@@ -73,6 +75,13 @@ text-align: center
 
 -- end: ftd.column
 
+-- ftd.image:
+src: $assets.files.images.download.svg
+$on-click$: $utils.download-as-image(element_id = card-2, filename = card-2.jpg)
+anchor: parent
+top.px: 0
+right.px: -32
+width.fixed.px: 20
 
 -- end: ftd.row
 

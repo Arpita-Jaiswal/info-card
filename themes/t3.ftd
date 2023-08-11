@@ -2,6 +2,7 @@
 -- import: fifthtry.github.io/fastn-io-typography as typo
 -- import: fastn-community.github.io/doc-site as ds
 -- import: arpita-jaiswal.github.io/info-card/assets
+-- import: fastn-stack.github.io/fastn-js/utils
 -- import: dms
 
 
@@ -46,17 +47,17 @@ ftd.type-data types: $typo.types
 ftd.color-scheme colors: $cs.main
 
 -- ftd.row:
+align-content: center
+
+-- ftd.column:
 width.fixed.px: 250
 height.fixed.px: 510
 background.image: $bg-image
-align-content: center
 padding.px: 20
-
--- ftd.column:
-width: fill-container
 align-content: center
 color: white
 spacing.fixed.px: 10
+id: card-3
 
 
 -- ftd.text: $info-card.title
@@ -79,10 +80,22 @@ text-align: center
 
 -- end: ftd.column
 
+
+-- ftd.image:
+src: $assets.files.images.download.svg
+$on-click$: $utils.download-as-image(element_id = card-3, filename = card-3.jpg)
+anchor: parent
+top.px: 0
+right.px: -32
+width.fixed.px: 20
+
 -- end: ftd.row
 
 
 -- end: info-card
+
+
+
 
 
 -- ftd.background-image bg-image:
