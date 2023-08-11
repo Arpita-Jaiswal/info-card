@@ -22,7 +22,7 @@ padding.px: 20
 -- ftd.column:
 width: fill-container
 align-content: center
-color: $inherited.colors.text-strong
+color: black
 spacing.fixed.px: 10
 
 -- ftd.image:
